@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kofi Baffoe Acquah — IT Student | Pentecost University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ═══════════════════ STICKY NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a href="#" class="nav-logo" aria-label="Back to top">
+        <span class="nav-logo-initials">KBA</span>
+        <span class="nav-logo-text">KofiBaffoe<strong>Acquah</strong></span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#section-about"   class="nav-link" data-section="about">About</a></li>
+        <li><a href="#section-skills"  class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#section-edu"     class="nav-link" data-section="edu">Education</a></li>
+        <li><a href="#section-projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#section-exp"     class="nav-link" data-section="exp">Experience</a></li>
+        <li><a href="#section-contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <!-- Right controls -->
+      <div class="nav-controls">
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+          <span class="toggle-track">
+            <span class="toggle-thumb">
+              <span class="toggle-icon sun" aria-hidden="true">☀</span>
+              <span class="toggle-icon moon" aria-hidden="true">◐</span>
+            </span>
+          </span>
+        </button>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="nav-mobile" id="navMobile" aria-hidden="true">
+      <ul class="nav-mobile-links" role="list">
+        <li><a href="#section-about"   class="nav-mobile-link" tabindex="-1">About</a></li>
+        <li><a href="#section-skills"  class="nav-mobile-link" tabindex="-1">Skills</a></li>
+        <li><a href="#section-edu"     class="nav-mobile-link" tabindex="-1">Education</a></li>
+        <li><a href="#section-projects" class="nav-mobile-link" tabindex="-1">Projects</a></li>
+        <li><a href="#section-exp"     class="nav-mobile-link" tabindex="-1">Experience</a></li>
+        <li><a href="#section-contact" class="nav-mobile-link" tabindex="-1">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="resume-wrapper">
+
+    <!-- ═══════════════════ HEADER ═══════════════════ -->
+    <header class="header reveal" id="section-about">
+      <div class="header-inner">
+        <div class="header-text">
+          <p class="header-eyebrow">Portfolio · Resume · 2025–2026</p>
+          <h1 class="header-name">
+            <span>Kofi Baffoe</span>
+            <span class="name-accent">Acquah</span>
+          </h1>
+          <p class="header-title">Information Technology Student</p>
+          <p class="header-program">Faculty of Engineering, Science &amp; Computing · Pentecost University · Level 200 · 2025–2026</p>
+
+          <div class="header-contacts">
+            <a href="mailto:kofibaffoeacquah@gmail.com" class="contact-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+              kofibaffoeacquah@gmail.com
+            </a>
+            <a href="https://github.com/quoff" target="_blank" rel="noopener" class="contact-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              github.com/quoff
+            </a>
+            <a href="https://www.linkedin.com/in/kofibaffoeacquah-900975314/" target="_blank" rel="noopener" class="contact-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              linkedin.com/in/kofibaffoeacquah
+            </a>
+            <span class="contact-chip location-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Accra, Ghana
+            </span>
+          </div>
+        </div>
+
+     <!-- ── ENHANCED PROFILE IMAGE SECTION ── -->
+<div class="profile-section">
+  
+  <div class="profile-wrapper">
+
+    <div class="profile-glow-ring"></div>
+    <div class="profile-glow-ring ring-b"></div>
+
+    <!-- Image Frame -->
+    <div class="profile-image-frame">
+
+      <div class="profile-image-inner">
+
+        <!-- Profile Image -->
+        <img src="images/myphoto.png"
+             alt="Kofi Baffoe Acquah"
+             class="profile-img">
+
+        <!-- Overlay -->
+        <div class="profile-overlay">
+          <span class="profile-overlay-text">
+            View Profile
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Status Dot -->
+    <div class="profile-status-dot"
+         aria-label="Available for work"></div>
+
+  </div>
+
+  <!-- Badge -->
+  <div class="avatar-badge">
+    <span>Level 200</span>
+  </div>
+
+</div>
+    </header>
+
+    <!-- ═══════════════════ GRID LAYOUT ═══════════════════ -->
+    <div class="content-grid">
+
+      <!-- LEFT COLUMN -->
+      <aside class="left-col">
+
+        <!-- Summary -->
+        <section class="card reveal" id="section-skills" style="--delay:.1s">
+          <div class="section-label">About</div>
+          <p class="summary-text">
+            Passionate Level 200 student at Pentecost University with a keen focus on building meaningful digital experiences. I explore the intersection of <em>web development</em>, <em>networking</em>, and <em>cybersecurity</em>—crafting interfaces that are both beautiful and secure. Currently deepening my skills in <em>UI/UX design</em> and <em>software development</em>, with the goal of creating technology that solves real-world African problems.
+          </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="card reveal" style="--delay:.2s">
+          <div class="section-label">Skills</div>
+          <div class="skills-grid">
+            <div class="skill-card" data-level="90">
+              <div class="skill-icon html">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="85">
+              <div class="skill-icon css">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.413z"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">CSS3</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="75">
+              <div class="skill-icon js">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="80">
+              <div class="skill-icon git">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="72">
+              <div class="skill-icon cisco">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="4" height="10" rx="1"/><rect x="10" y="4" width="4" height="16" rx="1"/><rect x="18" y="7" width="4" height="10" rx="1"/><path d="M4 12h6M14 12h6"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Cisco Packet Tracer</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="70">
+              <div class="skill-icon net">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="2"/><circle cx="4" cy="6" r="2"/><circle cx="20" cy="6" r="2"/><circle cx="4" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><path d="M6 6l4 5M18 6l-4 5M6 18l4-5M18 18l-4-5"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Networking</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="65">
+              <div class="skill-icon ps">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.322v17.356C0 21.699 1.301 23 2.322 23H21.68C22.699 23 24 21.699 24 20.678V3.322C24 2.301 22.699 1 21.678 1H2.322C1.301 1 0 2.301 0 3.322zm5.5 12.392V8.467c0-.115.059-.172.174-.172.33 0 .66-.007.998-.007.34 0 .677.016 1.013.047a4.3 4.3 0 011.002.23c.311.108.585.274.823.497.238.223.425.501.563.836.138.334.207.72.207 1.157 0 .45-.08.851-.24 1.203a2.37 2.37 0 01-.665.875c-.284.23-.622.405-1.012.522-.391.117-.815.175-1.27.175h-.575v2.063c0 .115-.058.174-.173.174H5.674c-.115 0-.174-.059-.174-.174zm1.543-3.426h.52c.187 0 .37-.023.548-.07a1.32 1.32 0 00.46-.22.982.982 0 00.302-.4c.073-.163.11-.358.11-.585 0-.205-.03-.385-.088-.54a.966.966 0 00-.261-.385 1.08 1.08 0 00-.42-.228 2.04 2.04 0 00-.565-.072h-.605v2.5zm5.95 3.555c-.12-.056-.18-.153-.18-.293v-5.76c0-.14.068-.21.204-.21h2.01c.596 0 1.118.083 1.564.248.448.165.82.4 1.12.703.299.304.522.672.67 1.103.147.432.22.917.22 1.456 0 .596-.084 1.126-.253 1.59a3.155 3.155 0 01-.724 1.175c-.313.32-.698.564-1.154.734-.458.17-.975.254-1.553.254H13.2c-.099 0-.18-.028-.206-.083v.083zm1.7-1.237h.728c.31 0 .586-.047.827-.14.242-.094.445-.233.61-.42.165-.186.29-.415.376-.688.087-.273.13-.586.13-.94 0-.354-.037-.667-.113-.938a1.844 1.844 0 00-.338-.687 1.45 1.45 0 00-.572-.424 2.03 2.03 0 00-.808-.147h-.84v4.384z"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Photoshop</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" data-level="88">
+              <div class="skill-icon responsive">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="14" height="11" rx="1"/><path d="M8 21H5.5a1.5 1.5 0 010-3H12"/><rect x="16" y="9" width="6" height="12" rx="1"/></svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Responsive Design</span>
+                <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="card reveal" style="--delay:.3s">
+          <div class="section-label">Certifications</div>
+          <ul class="cert-list">
+            <li class="cert-item">
+              <div class="cert-dot"></div>
+              <div>
+                <strong>Cisco Introduction to Cybersecurity</strong>
+                <span class="cert-meta">Cisco Networking Academy · 2024</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-dot"></div>
+              <div>
+                <strong>Cisco Networking Essentials</strong>
+                <span class="cert-meta">Cisco Networking Academy · 2024</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-dot"></div>
+              <div>
+                <strong>Responsive Web Design</strong>
+                <span class="cert-meta">freeCodeCamp · 2023</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-dot"></div>
+              <div>
+                <strong>JavaScript Algorithms &amp; Data Structures</strong>
+                <span class="cert-meta">freeCodeCamp · 2024</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-dot"></div>
+              <div>
+                <strong>Google IT Support Professional</strong>
+                <span class="cert-meta">Google / Coursera · 2024</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="card contact-card reveal" id="section-contact" style="--delay:.4s">
+          <div class="section-label">Get in Touch</div>
+          <p class="contact-text">Open to internships, freelance work, and collaborations.</p>
+          <div class="contact-actions">
+            <a href="mailto:kwame.asante@student.pentvars.edu.gh" class="btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Send Email
+            </a>
+            <a href="https://github.com/kwameasante" target="_blank" rel="noopener" class="btn-ghost">
+              GitHub Profile
+            </a>
+          </div>
+        </section>
+
+      </aside>
+
+      <!-- RIGHT COLUMN -->
+      <div class="right-col">
+
+        <!-- Education -->
+        <section class="card reveal" id="section-edu" style="--delay:.15s">
+          <div class="section-label">Education</div>
+          <div class="edu-block">
+            <div class="edu-logo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="edu-info">
+              <h3 class="edu-title">BSc. Information Technology</h3>
+              <p class="edu-school">Pentecost University</p>
+              <p class="edu-dept">Faculty of Engineering, Science &amp; Computing</p>
+              <div class="edu-tags">
+                <span class="tag">Level 200</span>
+                <span class="tag">2026 – Present</span>
+                <span class="tag">Accra, Ghana</span>
+              </div>
+              <div class="edu-courses">
+                <span class="course-chip">Web Technologies</span>
+                <span class="course-chip">Data Communications</span>
+                <span class="course-chip">Computer Networks</span>
+                <span class="course-chip">Database Management</span>
+                <span class="course-chip">Software Engineering</span>
+                <span class="course-chip">Discrete Mathematics</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       <!-- ───────────────── PROJECTS SECTION ───────────────── -->
+<section class="card reveal" id="section-projects" style="--delay:.25s">
+
+  <div class="section-label">Projects</div>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 1 -->
+    <article class="project-card featured">
+
+      <div class="project-top">
+
+        <div class="project-type">
+          Web Platform
+        </div>
+
+        <div class="project-links">
+
+          <!-- GitHub -->
+          <a href="https://github.com/kofibaffoeacquah-afk"
+             class="icon-link"
+             target="_blank"
+             aria-label="View code">
+
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- IMAGE Src sports academy -->
+      <div class="project-image">
+        <img src="images/SRC.png"
+             alt="SRC Sports Academy Project">
+      </div>
+
+      <h3 class="project-name">
+        SRC Sports Academy Web Platform
+      </h3>
+
+      <p class="project-desc">
+        A full-featured sports academy platform for athlete registration,
+        event schedules, training updates, and sports management.
+      </p>
+
+      <div class="project-tags">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Responsive</span>
+      </div>
+
+    </article>
+
+    <!-- PROJECT CISCO VLAN 2 -->
+    <article class="project-card">
+
+      <div class="project-top">
+
+        <div class="project-type">
+          Network Engineering
+        </div>
+
+      </div>
+
+      <div class="project-image">
+        <img src="images/cisco.png"
+             alt="Cisco VLAN Project">
+      </div>
+
+      <h3 class="project-name">
+        Cisco VLAN Network Project
+      </h3>
+
+      <p class="project-desc">
+        Designed and simulated VLANs, inter-VLAN routing,
+        DHCP configuration, and segmented enterprise networking
+        using Cisco Packet Tracer.
+      </p>
+
+      <div class="project-tags">
+        <span>Cisco PT</span>
+        <span>VLAN</span>
+        <span>Routing</span>
+        <span>DHCP</span>
+      </div>
+
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project-card">
+
+      <div class="project-top">
+
+        <div class="project-type">
+          Software Development
+        </div>
+
+      </div>
+
+      <div class="project-image">
+        <img src="images/Library.png"
+             alt="Student Management System">
+      </div>
+
+      <h3 class="project-name">
+        Student Management System
+      </h3>
+
+      <p class="project-desc">
+        Desktop-based student management application built
+        using Visual Basic and database integration for
+        student records and management.
+      </p>
+
+      <div class="project-tags">
+        <span>Visual Basic</span>
+        <span>java</span>
+        <span>Database</span>
+        <span>Desktop App</span>
+      </div>
+
+    </article>
+
+    <!-- PROJECT Website 4 -->
+    <article class="project-card">
+
+      <div class="project-top">
+
+        <div class="project-type">
+          Portfolio Website
+        </div>
+
+      </div>
+
+      <div class="project-image">
+        <img src="images/website.png"
+             alt="Portfolio Website">
+      </div>
+
+      <h3 class="project-name">
+        Personal Portfolio Website
+      </h3>
+
+      <p class="project-desc">
+        Responsive portfolio website with dark mode,
+        animated UI, smooth scrolling, and project showcase.
+      </p>
+
+      <div class="project-tags">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>UI/UX</span>
+      </div>
+      
+
+    </article>
+<!-- PROJECT 5 -->
+<article class="project-card">
+
+  <div class="project-top">
+
+    <div class="project-type">
+      Frontend Development
+    </div>
+
+    <div class="project-links">
+
+      <!-- GitHub -->
+      <a href="https://github.com/"
+         class="icon-link"
+         target="_blank"
+         aria-label="View code">
+
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+        </svg>
+
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PROJECT IMAGE -->
+  <div class="project-image">
+    <img src="images/Calculator.png"
+         alt="HTML Calculator Project">
+  </div>
+
+  <h3 class="project-name">
+    HTML Calculator Application
+  </h3>
+
+  <p class="project-desc">
+    Responsive calculator application built using HTML5,
+    CSS3, and JavaScript with interactive buttons,
+    real-time calculations, and modern UI design.
+  </p>
+
+  <div class="project-tags">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+    <span>Responsive</span>
+    <span>UI Design</span>
+  </div>
+
+</article>
+  </div>
+
+</section>
+
+        <!-- Experience -->
+        <section class="card reveal" id="section-exp" style="--delay:.35s">
+          <div class="section-label">Experience</div>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Freelance Web Developer</h3>
+                  <span class="timeline-date">2026 – Present</span>
+                </div>
+                <p class="timeline-role">Self-Employed · Remote</p>
+                <p class="timeline-desc">Design and develop responsive websites for small businesses and individuals in Ghana. Delivered 4+ client projects on schedule and within budget.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>IT Support Volunteer</h3>
+                  <span class="timeline-date">May – July 2026</span>
+                </div>
+                <p class="timeline-role">Community Tech Hub, Accra · Volunteer</p>
+                <p class="timeline-desc">Provided hardware and software troubleshooting support, set up local networks, and trained community members on basic computer literacy.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Web Design Lead</h3>
+                  <span class="timeline-date">2026 – Present</span>
+                </div>
+                <p class="timeline-role">SRC, Pentecost University · Academic Role</p>
+                <p class="timeline-desc">Leading the design and development of digital resources for the Student Representative Council, including the Sports Academy platform.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="resume-footer reveal" style="--delay:.5s">
+      <p>Acquah Baffoe Kofi · Web Design &amp; IT · Pentecost University · 2025</p>
+      <p class="footer-sub">Built with HTML5 · CSS3 · JavaScript</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
